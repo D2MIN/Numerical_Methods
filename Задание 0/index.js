@@ -61,7 +61,6 @@ function solve(matrix, results) {
             sum += matrix[i][j] * solution[j];
             
         }
-        console.log(results[i],matrix[i][i]);
         solution[i] = (results[i] - sum) / matrix[i][i];
     }
 
